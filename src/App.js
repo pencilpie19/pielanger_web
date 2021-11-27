@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import HomeDashboard from './layouts/HomeDashboard';
+import Footer from './layouts/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h4>
-        PieLanger uygulaması başlıyor !
-      </h4>
+      <HomeDashboard/>
+      <Footer/>
     </div>
   );
 }

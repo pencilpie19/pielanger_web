@@ -1,0 +1,43 @@
+$pl-blue : #4ECDC4;
+$pl-dark-blue : #1A535C;
+$pl-white : #F7FFF7;
+$pl-red : #FF6B6B;
+$pl-yellow : #FFE66D;
+
+// PieLanger Button
+.pl-button{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px !important;
+}
+
+.pl-button:hover,.pl-button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+// PieLanger Primary Button
+.pl-primary-button{
+    border-color: $pl-blue !important;
+    background-color: $pl-blue !important;
+    transform: 0.3s;
+}
+
+.pl-primary-button:hover{
+    background-color: $pl-white!important;
+    border-color: $pl-blue !important;
+    color: $pl-blue !important;
+    transform: 0.3s;
+}
+
+.pl-primary-button:active{
+    background-color: $pl-dark-blue !important;   
+}
+
+//PieLanger Secondary Button
+.pl-secondary-button{
+    background-color: $pl-white!important;
+    border-color: $pl-blue !important;
+    color: $pl-blue !important;
+}
+  
